@@ -1,3 +1,11 @@
+<!--
+ * @Author: Sun Yuxin
+ * @Date: 2020-10-16 23:00:15
+ * @LastEditTime: 2020-10-17 01:07:38
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /numerical_analysis_iterator/README.md
+-->
 # 《数值分析》课程设计
 ## 摘要
 本项目根据《数值分析》课程相关知识，通过运用C++，Qt等工具，演示用五种迭代方法解方程及图示过程。
@@ -13,23 +21,19 @@
 * Linux下开发环境配置和使用
 * 各种实用小工具的使用，包括xmake，git，markdown等
 * 实现前后端的交互
-
 ## 需求分析
 ### 功能需求
-
 ### 性能需求
 ### 开发环境需求
 本实验采用：
 * ubuntu 18.04 操作系统
 * vscode编辑器
 * xmake
-
-
 ## 系统设计
 ### 系统总体模块图
 ### 系统模块设计
 界面设计：
-![09815fb22791d31cede060d4545e0cfc.png](en-resource://database/5658:1)
+![avatar](https://images.cnblogs.com/cnblogs_com/fighterkaka22/1864676/o_201017080544界面设计.png)
 类图：
 ### 详细设计
 流程图：
