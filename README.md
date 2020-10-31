@@ -1,7 +1,7 @@
 <!--
  * @Author: Sun Yuxin
  * @Date: 2020-10-16 23:00:15
- * @LastEditTime: 2020-10-20 00:02:45
+ * @LastEditTime: 2020-10-31 09:23:44
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /numerical_analysis_iterator/README.md
@@ -23,7 +23,7 @@
 ### 功能需求
 * 可通过前端可视化界面和用户交互
 * 绘制出函数图像
-* 绘制出每一步迭代的逼近直线和点
+* 绘制出每一步迭代点
 * 在窗口中显示每一步结果和详细信息
 * 用户可通过按钮控制开始迭代结束迭代
 ### 性能需求
@@ -39,12 +39,17 @@
 ## 系统设计
 ### 系统总体模块图
 #### 模块划分
+![模块划分](https://github.com/fighterkaka22/numerical_analysis_iterator/blob/main/pictures/%E6%A8%A1%E5%9D%97%E5%88%92%E5%88%86.png?raw=true)
 #### 类设计
 #### 界面设计
 ![界面设计](https://raw.githubusercontent.com/fighterkaka22/numerical_analysis_iterator/main/pictures/%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1.png)
 ### 软件动态模型设计
 #### 时序图
+![时序图](https://github.com/fighterkaka22/numerical_analysis_iterator/blob/main/pictures/%E6%97%B6%E5%BA%8F%E5%9B%BE.png?raw=true)
 #### 流程图
 ### 详细设计
+第一步：读取表达式并绘制函数图像
+为了能看到迭代过程，显然初值那个点应当放在图中间。那么为了清楚看到迭代过程，就画初值左右各三格的函数图像还是比较合适的。绘图具体过程，建立一个1000×1000的二维数组或者图，储存对应的x,y坐标，画出来就行了。具体数据根据实际情况决定。
+另外，输入表达式如果含有小数，比如“0.6x^2”,“0.6”作为三个字符，并且带小数点，不太好识别。鉴于暂时还不急于优化，暂且只允许以分数格式输入小数，以后有空再处理。
 ## 相关代码
 ## 设计总结
