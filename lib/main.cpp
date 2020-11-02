@@ -1,9 +1,7 @@
 #include "IteratorFunction.h"
 #include "Aitken.h"
-#include "Newton.h"
 #include "NewtonOriginal.h"
 #include "NewtonDownhill.h"
-#include "Secant.h"
 #include "OnePoint.h"
 #include "TwoPoint.h"
 #include <iostream>
@@ -56,11 +54,21 @@ int main()
 	}
 	else if(method == 4)
 	{
-    	OnePoint one_point(expression, equivalent, x0, x1);		
+    	OnePoint one_point(expression, equivalent, x0, x1);	
+		while( fabs(one_point.xn - one_point.x_last) > YPSILON) 
+    	{
+			one_point.iterate();    		
+		}
+   		cout << "The result is " << one_point.x << endl;	
 	} 
 	else if(method == 5)
 	{
-		TwoPoint two_point(expression, equivalent, x0, x1);		
+		TwoPoint two_point(expression, equivalent, x0, x1);	
+		while( fabs(two_point.xn - two_point.xn_1) > YPSILON) 
+    	{
+			two_point.iterate();    		
+		}
+   		cout << "The result is " << two_point.x << endl;	
 	}
 
 	return 0;
