@@ -1,0 +1,8 @@
+-I/home/joyce/Documents/numerical_analysis_iterator/library
+-I/home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction
+-I/home/joyce/Documents/numerical_analysis_iterator/library/./IteratorPaint
+-I/home/joyce/Documents/numerical_analysis_iterator/library/./IteratorText
+-I/home/joyce/Documents/numerical_analysis_iterator/library/./IteratorWidget
+-o
+/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget/moc_IteratorWidget.cpp
+/home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.h
