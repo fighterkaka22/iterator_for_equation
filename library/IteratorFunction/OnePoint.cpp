@@ -1,6 +1,24 @@
 #include "OnePoint.h"
-OnePoint::OnePoint(string expression, string equivalent, NumberType x0, NumberType x1):IteratorFunction(expression, equivalent, x0, x1)
+OnePoint::OnePoint():IteratorFunction()
 {
+
+}
+void OnePoint::initOnePoint(string expression, string equivalent, NumberType x0, NumberType x1)
+{
+	this->expression = expression;
+	this->equivalent = equivalent;
+    this->x0 = x0;
+    this->x1 = x1;
+	
+	error = 0;
+	opt_priority['('] = 0;
+	opt_priority['-'] = 1;
+	opt_priority['+'] = 1;
+	opt_priority['*'] = 2;
+	opt_priority['/'] = 2;
+	opt_priority['^'] = 3;
+	opt_priority['#'] = 4;
+	
 	this->x0 = x0;
 	this->x_last = x0;
 	this->x = x0;

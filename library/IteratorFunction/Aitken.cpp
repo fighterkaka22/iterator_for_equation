@@ -1,8 +1,36 @@
+/*
+ * @Author: your name
+ * @Date: 2020-11-09 04:09:52
+ * @LastEditTime: 2020-11-10 10:59:23
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /numerical_analysis_iterator/library/IteratorFunction/Aitken.cpp
+ */
 #include "Aitken.h"
-Aitken::Aitken(string expression, string equivalent, NumberType x0, NumberType x1):IteratorFunction(expression, equivalent, x0, x1)
+Aitken::Aitken():IteratorFunction()
+{
+
+}
+void Aitken::initAitken(string expression, string equivalent, NumberType x0, NumberType x1)
 {  
-	this->x = this->x0;
-	this->x1 = this->x0-1; 
+	this->expression = expression;
+	this->equivalent = equivalent;
+    this->x0 = x0;
+    this->x1 = x1;
+	
+	error = 0;
+	opt_priority['('] = 0;
+	opt_priority['-'] = 1;
+	opt_priority['+'] = 1;
+	opt_priority['*'] = 2;
+	opt_priority['/'] = 2;
+	opt_priority['^'] = 3;
+	opt_priority['#'] = 4;
+	
+	this->x = x0;
+	this->x1 = x0-1; 
+	cout << "x_init=" << this->x;
+	cout << "x1_init=" << this->x1;
 }
 NumberType Aitken::iterate()
 {

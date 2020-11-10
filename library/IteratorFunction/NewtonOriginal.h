@@ -10,7 +10,8 @@ class NewtonOriginal : public IteratorFunction
 		NumberType xx;
 		NumberType fxx;
 	public:
-		NewtonOriginal(string expression, string equivalent, NumberType x0, NumberType x1);
+		NewtonOriginal();
+		void initNewtonOriginal(string expression, string equivalent, NumberType x0, NumberType x1);
 		NumberType iterate();
 	protected:
 };

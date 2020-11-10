@@ -20,26 +20,26 @@ INCLUDE_DIRECTORIES("${PROJECT_SOURCE_DIR}" ./IteratorFunction ./IteratorWidget)
 SET(Iterator_SOURCES 	
     main.cpp
 
+    IteratorWidget/IteratorWidget.cpp
+
     IteratorFunction/IteratorFunction.cpp
     IteratorFunction/Aitken.cpp
     IteratorFunction/NewtonOriginal.cpp
     IteratorFunction/NewtonDownhill.cpp
     IteratorFunction/OnePoint.cpp
     IteratorFunction/TwoPoint.cpp
-
-    IteratorWidget/IteratorWidget.cpp
 )
 
 #添加所有的头文件
 SET(Iterator_HEADERS 
+    IteratorWidget/IteratorWidget.h
+
     IteratorFunction/IteratorFunction.h
     IteratorFunction/Aitken.h
     IteratorFunction/NewtonOriginal.h
     IteratorFunction/NewtonDownhill.h
     IteratorFunction/OnePoint.h
     IteratorFunction/TwoPoint.h
-
-    IteratorWidget/IteratorWidget.h
 )
 
 #调用预编译器moc，需要使用 QT5_WRAP_CPP宏

@@ -10,7 +10,8 @@ class OnePoint : public IteratorFunction
 		NumberType fx0;
 		NumberType fxn; 
 	public:
-		OnePoint(string expression, string equivalent, NumberType x0, NumberType x1);
+		OnePoint();
+		void initOnePoint(string expression, string equivalent, NumberType x0, NumberType x1);
 		NumberType iterate();
 	protected:
 };

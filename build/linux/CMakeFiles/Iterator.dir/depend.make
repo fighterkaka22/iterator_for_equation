@@ -44,6 +44,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /home/joyce/Documen
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction/TwoPoint.h
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.h
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -152,6 +153,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit
@@ -161,6 +163,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
@@ -177,6 +180,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /home/joyce/Doc
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction/OnePoint.h
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction/TwoPoint.h
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.h
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -285,6 +289,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x8
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit
@@ -294,6 +299,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x8
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
@@ -310,6 +316,7 @@ CMakeFiles/Iterator.dir/main.cpp.o: /home/joyce/Documents/numerical_analysis_ite
 CMakeFiles/Iterator.dir/main.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction/TwoPoint.h
 CMakeFiles/Iterator.dir/main.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorWidget/IteratorWidget.h
 CMakeFiles/Iterator.dir/main.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/main.cpp
+CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -423,6 +430,7 @@ CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwin
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit
@@ -434,6 +442,7 @@ CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 CMakeFiles/Iterator.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h

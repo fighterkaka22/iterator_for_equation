@@ -11,7 +11,8 @@ class NewtonDownhill : public IteratorFunction
 		NumberType fxx;
 		double lamda;
 	public:
-		NewtonDownhill(string expression, string equivalent, NumberType x0, NumberType x1);
+		NewtonDownhill();
+		void initNewtonDownhill(string expression, string equivalent, NumberType x0, NumberType x1);
 		NumberType iterate(); 
 	protected:
 };

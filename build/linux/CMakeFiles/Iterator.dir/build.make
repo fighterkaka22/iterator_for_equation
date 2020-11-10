@@ -57,33 +57,33 @@ include CMakeFiles/Iterator.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Iterator.dir/flags.make
 
+IteratorWidget/moc_IteratorWidget.cpp: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating IteratorWidget/moc_IteratorWidget.cpp"
+	cd /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget && /usr/lib/qt5/bin/moc @/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget/moc_IteratorWidget.cpp_parameters
+
 IteratorFunction/moc_IteratorFunction.cpp: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/IteratorFunction.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating IteratorFunction/moc_IteratorFunction.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating IteratorFunction/moc_IteratorFunction.cpp"
 	cd /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction && /usr/lib/qt5/bin/moc @/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_IteratorFunction.cpp_parameters
 
 IteratorFunction/moc_Aitken.cpp: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/Aitken.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating IteratorFunction/moc_Aitken.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating IteratorFunction/moc_Aitken.cpp"
 	cd /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction && /usr/lib/qt5/bin/moc @/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_Aitken.cpp_parameters
 
 IteratorFunction/moc_NewtonOriginal.cpp: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/NewtonOriginal.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating IteratorFunction/moc_NewtonOriginal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating IteratorFunction/moc_NewtonOriginal.cpp"
 	cd /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction && /usr/lib/qt5/bin/moc @/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_NewtonOriginal.cpp_parameters
 
 IteratorFunction/moc_NewtonDownhill.cpp: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/NewtonDownhill.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating IteratorFunction/moc_NewtonDownhill.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating IteratorFunction/moc_NewtonDownhill.cpp"
 	cd /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction && /usr/lib/qt5/bin/moc @/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_NewtonDownhill.cpp_parameters
 
 IteratorFunction/moc_OnePoint.cpp: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/OnePoint.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating IteratorFunction/moc_OnePoint.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating IteratorFunction/moc_OnePoint.cpp"
 	cd /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction && /usr/lib/qt5/bin/moc @/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_OnePoint.cpp_parameters
 
 IteratorFunction/moc_TwoPoint.cpp: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/TwoPoint.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating IteratorFunction/moc_TwoPoint.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating IteratorFunction/moc_TwoPoint.cpp"
 	cd /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction && /usr/lib/qt5/bin/moc @/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_TwoPoint.cpp_parameters
-
-IteratorWidget/moc_IteratorWidget.cpp: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating IteratorWidget/moc_IteratorWidget.cpp"
-	cd /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget && /usr/lib/qt5/bin/moc @/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget/moc_IteratorWidget.cpp_parameters
 
 CMakeFiles/Iterator.dir/main.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/main.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/main.cpp
@@ -109,9 +109,33 @@ CMakeFiles/Iterator.dir/main.cpp.o.provides: CMakeFiles/Iterator.dir/main.cpp.o.
 CMakeFiles/Iterator.dir/main.cpp.o.provides.build: CMakeFiles/Iterator.dir/main.cpp.o
 
 
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: CMakeFiles/Iterator.dir/flags.make
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp
+
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp > CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.i
+
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp -o CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.s
+
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.requires:
+
+.PHONY : CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.requires
+
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.provides: CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.provides.build
+.PHONY : CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.provides
+
+CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.provides.build: CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o
+
+
 CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/IteratorFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/IteratorFunction.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.i: cmake_force
@@ -135,7 +159,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.o.provides.build: 
 
 CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/Aitken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/Aitken.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.i: cmake_force
@@ -159,7 +183,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/NewtonOriginal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/NewtonOriginal.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.i: cmake_force
@@ -183,7 +207,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.o.provides.build: CM
 
 CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/NewtonDownhill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/NewtonDownhill.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.i: cmake_force
@@ -207,7 +231,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.o.provides.build: CM
 
 CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/OnePoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/OnePoint.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.i: cmake_force
@@ -231,7 +255,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/TwoPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/TwoPoint.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.i: cmake_force
@@ -253,33 +277,33 @@ CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o.provides: CMakeFiles/Ite
 CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o.provides.build: CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o
 
 
-CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: CMakeFiles/Iterator.dir/flags.make
-CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o: /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: CMakeFiles/Iterator.dir/flags.make
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: IteratorWidget/moc_IteratorWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget/moc_IteratorWidget.cpp
 
-CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp > CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.i
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget/moc_IteratorWidget.cpp > CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.i
 
-CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp -o CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.s
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget/moc_IteratorWidget.cpp -o CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.s
 
-CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.requires:
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.requires:
 
-.PHONY : CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.requires
+.PHONY : CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.requires
 
-CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.provides: CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.provides.build
-.PHONY : CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.provides
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.provides: CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.provides.build
+.PHONY : CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.provides
 
-CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.provides.build: CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o
+CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.provides.build: CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o
 
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.o: IteratorFunction/moc_IteratorFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_IteratorFunction.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.i: cmake_force
@@ -303,7 +327,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.o.provides.bui
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.o: IteratorFunction/moc_Aitken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_Aitken.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.i: cmake_force
@@ -327,7 +351,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.o.provides.build: CMakeF
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.o: IteratorFunction/moc_NewtonOriginal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_NewtonOriginal.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.i: cmake_force
@@ -351,7 +375,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.o.provides.build
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.o: IteratorFunction/moc_NewtonDownhill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_NewtonDownhill.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.i: cmake_force
@@ -375,7 +399,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.o.provides.build
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.o: IteratorFunction/moc_OnePoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_OnePoint.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.i: cmake_force
@@ -399,7 +423,7 @@ CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.o.provides.build: CMak
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o: CMakeFiles/Iterator.dir/flags.make
 CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o: IteratorFunction/moc_TwoPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_TwoPoint.cpp
 
 CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.i: cmake_force
@@ -421,66 +445,42 @@ CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o.provides: CMakeFiles
 CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o.provides.build: CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o
 
 
-CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: CMakeFiles/Iterator.dir/flags.make
-CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o: IteratorWidget/moc_IteratorWidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget/moc_IteratorWidget.cpp
-
-CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget/moc_IteratorWidget.cpp > CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.i
-
-CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorWidget/moc_IteratorWidget.cpp -o CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.s
-
-CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.requires:
-
-.PHONY : CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.requires
-
-CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.provides: CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.provides.build
-.PHONY : CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.provides
-
-CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.provides.build: CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o
-
-
 # Object files for target Iterator
 Iterator_OBJECTS = \
 "CMakeFiles/Iterator.dir/main.cpp.o" \
+"CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o" \
-"CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o" \
+"CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.o" \
 "CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.o" \
-"CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o" \
-"CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o"
+"CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o"
 
 # External object files for target Iterator
 Iterator_EXTERNAL_OBJECTS =
 
 Iterator: CMakeFiles/Iterator.dir/main.cpp.o
+Iterator: CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o
-Iterator: CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o
+Iterator: CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.o
 Iterator: CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o
-Iterator: CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o
 Iterator: CMakeFiles/Iterator.dir/build.make
 Iterator: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
 Iterator: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
@@ -495,20 +495,20 @@ CMakeFiles/Iterator.dir/build: Iterator
 .PHONY : CMakeFiles/Iterator.dir/build
 
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/main.cpp.o.requires
+CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/IteratorFunction.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/Aitken.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/NewtonOriginal.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/NewtonDownhill.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/OnePoint.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/TwoPoint.cpp.o.requires
-CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o.requires
+CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/moc_IteratorFunction.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/moc_Aitken.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonOriginal.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/moc_NewtonDownhill.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/moc_OnePoint.cpp.o.requires
 CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.o.requires
-CMakeFiles/Iterator.dir/requires: CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o.requires
 
 .PHONY : CMakeFiles/Iterator.dir/requires
 
@@ -516,13 +516,13 @@ CMakeFiles/Iterator.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/Iterator.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/Iterator.dir/clean
 
+CMakeFiles/Iterator.dir/depend: IteratorWidget/moc_IteratorWidget.cpp
 CMakeFiles/Iterator.dir/depend: IteratorFunction/moc_IteratorFunction.cpp
 CMakeFiles/Iterator.dir/depend: IteratorFunction/moc_Aitken.cpp
 CMakeFiles/Iterator.dir/depend: IteratorFunction/moc_NewtonOriginal.cpp
 CMakeFiles/Iterator.dir/depend: IteratorFunction/moc_NewtonDownhill.cpp
 CMakeFiles/Iterator.dir/depend: IteratorFunction/moc_OnePoint.cpp
 CMakeFiles/Iterator.dir/depend: IteratorFunction/moc_TwoPoint.cpp
-CMakeFiles/Iterator.dir/depend: IteratorWidget/moc_IteratorWidget.cpp
 	cd /home/joyce/Documents/numerical_analysis_iterator/build/linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joyce/Documents/numerical_analysis_iterator/library /home/joyce/Documents/numerical_analysis_iterator/library /home/joyce/Documents/numerical_analysis_iterator/build/linux /home/joyce/Documents/numerical_analysis_iterator/build/linux /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/Iterator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Iterator.dir/depend
 

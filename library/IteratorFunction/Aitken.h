@@ -8,7 +8,8 @@ class Aitken : public IteratorFunction
 		NumberType y;
 		NumberType z;
 	public:
-		Aitken(string expression, string equivalent, NumberType x0, NumberType x1);
+		Aitken();
+		void initAitken(string expression, string equivalent, NumberType x0, NumberType x1);
 		NumberType iterate();		
 	protected:
 };

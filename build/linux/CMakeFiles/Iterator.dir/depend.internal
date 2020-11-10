@@ -45,6 +45,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o
  /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction/TwoPoint.h
  /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp
  /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -153,6 +154,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit
@@ -162,6 +164,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/IteratorWidget.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
@@ -178,6 +181,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o
  /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction/OnePoint.h
  /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction/TwoPoint.h
  /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -286,6 +290,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit
@@ -295,6 +300,7 @@ CMakeFiles/Iterator.dir/IteratorWidget/moc_IteratorWidget.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
@@ -311,6 +317,7 @@ CMakeFiles/Iterator.dir/main.cpp.o
  /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction/TwoPoint.h
  /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorWidget/IteratorWidget.h
  /home/joyce/Documents/numerical_analysis_iterator/library/main.cpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -424,6 +431,7 @@ CMakeFiles/Iterator.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTextEdit
@@ -435,6 +443,7 @@ CMakeFiles/Iterator.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h

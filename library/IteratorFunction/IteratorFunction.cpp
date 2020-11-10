@@ -21,21 +21,25 @@ IteratorFunction::IteratorFunction(string expression, string equivalent, NumberT
 	opt_priority['^'] = 3;
 	opt_priority['#'] = 4;
 }
-IteratorFunction::IteratorFunction(string expression, string equivalent, NumberType x0, NumberType x1)
-{
-	this->expression = expression;
-	this->equivalent = equivalent;
-    this->x0 = x0;
-    this->x1 = x1;
+// IteratorFunction::IteratorFunction(string expression, string equivalent, NumberType x0, NumberType x1)
+// {
+// 	this->expression = expression;
+// 	this->equivalent = equivalent;
+//     this->x0 = x0;
+//     this->x1 = x1;
 	
-	error = 0;
-	opt_priority['('] = 0;
-	opt_priority['-'] = 1;
-	opt_priority['+'] = 1;
-	opt_priority['*'] = 2;
-	opt_priority['/'] = 2;
-	opt_priority['^'] = 3;
-	opt_priority['#'] = 4;
+// 	error = 0;
+// 	opt_priority['('] = 0;
+// 	opt_priority['-'] = 1;
+// 	opt_priority['+'] = 1;
+// 	opt_priority['*'] = 2;
+// 	opt_priority['/'] = 2;
+// 	opt_priority['^'] = 3;
+// 	opt_priority['#'] = 4;
+// }
+IteratorFunction::IteratorFunction()
+{
+
 }
 NumberType IteratorFunction::sTOi(NumberType first_index, NumberType last_index)
 {
@@ -176,9 +180,9 @@ void IteratorFunction::pushOpt(int index)
 				OPTR.pop();
 				if (opt_priority[opt] >= opt_priority[opt_tmp])
 				{
-					//уБр╩╡╫йг©╪бг╣╫ж╦йЩтккЦ╨мкдтРтккЦтз╫Ьппм╛╪╤тккЦй╠╣д╡╩м╛ж╝╢╕
-					//кдтРтккЦм╛╪╤╠П╢свСмЫср
-					//ж╦йЩтккЦйг╢сио╣╫обё╛р╡╪╢йг╠М╢Ой╫жп╣д╢ссрмЫвС
+					//О©╫О©╫р╩О©╫О©╫О©╫г©О©╫О©╫г╣О©╫ж╦О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫з╫О©╫О©╫О©╫м╛О©╫О©╫О©╫О©╫О©╫О©╫й╠О©╫д╡О©╫м╛ж╝О©╫О©╫
+					//О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫м╛О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
+					//ж╦О©╫О©╫О©╫О©╫О©╫О©╫О©╫г╢О©╫О©╫о╣О©╫О©╫бёО©╫р╡О©╫О©╫О©╫г╠О©╫О©╫О©╫й╫О©╫п╣д╢О©╫О©╫О©╫О©╫О©╫О©╫О©╫
 					if (opt == '^')
 					{
 						OPTR.push(opt_tmp);
@@ -256,7 +260,7 @@ NumberType IteratorFunction::cal()
 		Error();
 		return -1;
 	}
-	cout << OPND.top() << endl;
+	//cout << "cal=" << OPND.top() << endl;
 	return OPND.top();
 }
 

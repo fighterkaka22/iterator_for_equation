@@ -1,7 +1,7 @@
 /*
  * @Author: Sun Yuxin
  * @Date: 2020-11-04 01:56:30
- * @LastEditTime: 2020-11-04 02:32:38
+ * @LastEditTime: 2020-11-10 07:25:49
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /numerical_analysis_iterator/lib/IteratorFunction.h
@@ -15,9 +15,10 @@
 #include <math.h>
 #include <map>
 #include <stdlib.h> 
+
 using namespace std;
 
-#define YPSILON 0.000001 
+#define YPSILON 0.00001 
 typedef double NumberType;
 
 class  IteratorFunction
@@ -42,7 +43,7 @@ protected:
 public:
 	IteratorFunction(string expression, string equivalent, NumberType x0, NumberType x1,NumberType x);
 	//overload
-	IteratorFunction(string expression, string equivalent, NumberType x0, NumberType x1);
+	IteratorFunction();
 	NumberType cal(); //calculate the final value and print it.
 };
 

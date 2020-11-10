@@ -1,6 +1,32 @@
+/*
+ * @Author: your name
+ * @Date: 2020-11-09 04:09:52
+ * @LastEditTime: 2020-11-10 11:15:11
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /numerical_analysis_iterator/library/IteratorFunction/TwoPoint.cpp
+ */
 #include "TwoPoint.h"
-TwoPoint::TwoPoint(string expression, string equivalent, NumberType x0, NumberType x1):IteratorFunction(expression, equivalent, x0, x1)
+TwoPoint::TwoPoint():IteratorFunction()
+{
+
+}
+void TwoPoint::initTwoPoint(string expression, string equivalent, NumberType x0, NumberType x1)
 {  
+	this->expression = expression;
+	this->equivalent = equivalent;
+    this->x0 = x0;
+    this->x1 = x1;
+	
+	error = 0;
+	opt_priority['('] = 0;
+	opt_priority['-'] = 1;
+	opt_priority['+'] = 1;
+	opt_priority['*'] = 2;
+	opt_priority['/'] = 2;
+	opt_priority['^'] = 3;
+	opt_priority['#'] = 4;
+	
 	this->xn_1 = x0;
 	this->x = x0;
 	this->fxn_1 = this->cal();

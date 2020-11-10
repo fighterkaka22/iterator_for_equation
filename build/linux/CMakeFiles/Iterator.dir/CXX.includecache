@@ -83,6 +83,12 @@ QMessageBox
 -
 QTextEdit
 -
+QLineEdit
+-
+QDebug
+-
+queue
+-
 IteratorFunction.h
 /home/joyce/Documents/numerical_analysis_iterator/library/./IteratorWidget/IteratorFunction.h
 Aitken.h
@@ -181,6 +187,12 @@ QMessageBox
 -
 QTextEdit
 -
+QLineEdit
+-
+QDebug
+-
+queue
+-
 IteratorFunction.h
 /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget/IteratorFunction.h
 Aitken.h
@@ -199,6 +211,10 @@ QApplication
 -
 IteratorWidget.h
 /home/joyce/Documents/numerical_analysis_iterator/library/IteratorWidget.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 qobject.h
@@ -1326,6 +1342,10 @@ qapplication.h
 qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
+qlineedit.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 qmessagebox.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
@@ -1398,6 +1418,18 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+QtGui/qtextcursor.h
+-
+QtCore/qstring.h
+-
+QtCore/qmargins.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
