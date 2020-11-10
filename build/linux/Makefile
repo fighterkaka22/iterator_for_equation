@@ -447,114 +447,6 @@ IteratorFunction/moc_TwoPoint.cpp.s:
 	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorFunction/moc_TwoPoint.cpp.s
 .PHONY : IteratorFunction/moc_TwoPoint.cpp.s
 
-IteratorPaint/IteratorPaint.o: IteratorPaint/IteratorPaint.cpp.o
-
-.PHONY : IteratorPaint/IteratorPaint.o
-
-# target to build an object file
-IteratorPaint/IteratorPaint.cpp.o:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorPaint/IteratorPaint.cpp.o
-.PHONY : IteratorPaint/IteratorPaint.cpp.o
-
-IteratorPaint/IteratorPaint.i: IteratorPaint/IteratorPaint.cpp.i
-
-.PHONY : IteratorPaint/IteratorPaint.i
-
-# target to preprocess a source file
-IteratorPaint/IteratorPaint.cpp.i:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorPaint/IteratorPaint.cpp.i
-.PHONY : IteratorPaint/IteratorPaint.cpp.i
-
-IteratorPaint/IteratorPaint.s: IteratorPaint/IteratorPaint.cpp.s
-
-.PHONY : IteratorPaint/IteratorPaint.s
-
-# target to generate assembly for a file
-IteratorPaint/IteratorPaint.cpp.s:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorPaint/IteratorPaint.cpp.s
-.PHONY : IteratorPaint/IteratorPaint.cpp.s
-
-IteratorPaint/moc_IteratorPaint.o: IteratorPaint/moc_IteratorPaint.cpp.o
-
-.PHONY : IteratorPaint/moc_IteratorPaint.o
-
-# target to build an object file
-IteratorPaint/moc_IteratorPaint.cpp.o:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorPaint/moc_IteratorPaint.cpp.o
-.PHONY : IteratorPaint/moc_IteratorPaint.cpp.o
-
-IteratorPaint/moc_IteratorPaint.i: IteratorPaint/moc_IteratorPaint.cpp.i
-
-.PHONY : IteratorPaint/moc_IteratorPaint.i
-
-# target to preprocess a source file
-IteratorPaint/moc_IteratorPaint.cpp.i:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorPaint/moc_IteratorPaint.cpp.i
-.PHONY : IteratorPaint/moc_IteratorPaint.cpp.i
-
-IteratorPaint/moc_IteratorPaint.s: IteratorPaint/moc_IteratorPaint.cpp.s
-
-.PHONY : IteratorPaint/moc_IteratorPaint.s
-
-# target to generate assembly for a file
-IteratorPaint/moc_IteratorPaint.cpp.s:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorPaint/moc_IteratorPaint.cpp.s
-.PHONY : IteratorPaint/moc_IteratorPaint.cpp.s
-
-IteratorText/IteratorText.o: IteratorText/IteratorText.cpp.o
-
-.PHONY : IteratorText/IteratorText.o
-
-# target to build an object file
-IteratorText/IteratorText.cpp.o:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorText/IteratorText.cpp.o
-.PHONY : IteratorText/IteratorText.cpp.o
-
-IteratorText/IteratorText.i: IteratorText/IteratorText.cpp.i
-
-.PHONY : IteratorText/IteratorText.i
-
-# target to preprocess a source file
-IteratorText/IteratorText.cpp.i:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorText/IteratorText.cpp.i
-.PHONY : IteratorText/IteratorText.cpp.i
-
-IteratorText/IteratorText.s: IteratorText/IteratorText.cpp.s
-
-.PHONY : IteratorText/IteratorText.s
-
-# target to generate assembly for a file
-IteratorText/IteratorText.cpp.s:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorText/IteratorText.cpp.s
-.PHONY : IteratorText/IteratorText.cpp.s
-
-IteratorText/moc_IteratorText.o: IteratorText/moc_IteratorText.cpp.o
-
-.PHONY : IteratorText/moc_IteratorText.o
-
-# target to build an object file
-IteratorText/moc_IteratorText.cpp.o:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorText/moc_IteratorText.cpp.o
-.PHONY : IteratorText/moc_IteratorText.cpp.o
-
-IteratorText/moc_IteratorText.i: IteratorText/moc_IteratorText.cpp.i
-
-.PHONY : IteratorText/moc_IteratorText.i
-
-# target to preprocess a source file
-IteratorText/moc_IteratorText.cpp.i:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorText/moc_IteratorText.cpp.i
-.PHONY : IteratorText/moc_IteratorText.cpp.i
-
-IteratorText/moc_IteratorText.s: IteratorText/moc_IteratorText.cpp.s
-
-.PHONY : IteratorText/moc_IteratorText.s
-
-# target to generate assembly for a file
-IteratorText/moc_IteratorText.cpp.s:
-	$(MAKE) -f CMakeFiles/Iterator.dir/build.make CMakeFiles/Iterator.dir/IteratorText/moc_IteratorText.cpp.s
-.PHONY : IteratorText/moc_IteratorText.cpp.s
-
 IteratorWidget/IteratorWidget.o: IteratorWidget/IteratorWidget.cpp.o
 
 .PHONY : IteratorWidget/IteratorWidget.o
@@ -681,18 +573,6 @@ help:
 	@echo "... IteratorFunction/moc_TwoPoint.o"
 	@echo "... IteratorFunction/moc_TwoPoint.i"
 	@echo "... IteratorFunction/moc_TwoPoint.s"
-	@echo "... IteratorPaint/IteratorPaint.o"
-	@echo "... IteratorPaint/IteratorPaint.i"
-	@echo "... IteratorPaint/IteratorPaint.s"
-	@echo "... IteratorPaint/moc_IteratorPaint.o"
-	@echo "... IteratorPaint/moc_IteratorPaint.i"
-	@echo "... IteratorPaint/moc_IteratorPaint.s"
-	@echo "... IteratorText/IteratorText.o"
-	@echo "... IteratorText/IteratorText.i"
-	@echo "... IteratorText/IteratorText.s"
-	@echo "... IteratorText/moc_IteratorText.o"
-	@echo "... IteratorText/moc_IteratorText.i"
-	@echo "... IteratorText/moc_IteratorText.s"
 	@echo "... IteratorWidget/IteratorWidget.o"
 	@echo "... IteratorWidget/IteratorWidget.i"
 	@echo "... IteratorWidget/IteratorWidget.s"
