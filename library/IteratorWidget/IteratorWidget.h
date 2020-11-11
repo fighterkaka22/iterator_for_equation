@@ -1,7 +1,7 @@
 /*
  * @Author: Sun Yuxin
  * @Date: 2020-11-04 02:00:32
- * @LastEditTime: 2020-11-10 12:07:23
+ * @LastEditTime: 2020-11-10 18:00:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /numerical_analysis_iterator/library/IteratorWidget.h
@@ -44,6 +44,14 @@ public:
     QPushButton _next;
     QPushButton _exit;
 
+    QPushButton _ypsilon_00001;
+    QPushButton _ypsilon_000001;
+    QPushButton _ypsilon_0000001;
+
+    QPushButton _multiple_01;
+    QPushButton _multiple_1;
+    QPushButton _multiple_10;
+
     QLineEdit _edit_fx;
     QLineEdit _edit_gx;
     QLineEdit _edit_x0;
@@ -57,6 +65,8 @@ public:
 protected:
     queue<NumberType> point_queue;
     int time = 0;
+    double ypsilon = 0.00001;
+    double multiple = 0.1;
     NumberType result_array[100]={0};
 
     Aitken aitken;

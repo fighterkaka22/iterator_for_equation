@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2020-11-09 04:09:52
- * @LastEditTime: 2020-11-10 10:59:23
- * @LastEditors: your name
+ * @LastEditTime: 2020-11-10 20:00:49
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /numerical_analysis_iterator/library/IteratorFunction/Aitken.cpp
  */

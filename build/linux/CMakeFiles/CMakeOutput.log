@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/joyce/Documents/numerica
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_71525/fast"
-/usr/bin/make -f CMakeFiles/cmTC_71525.dir/build.make CMakeFiles/cmTC_71525.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dc46b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc46b.dir/build.make CMakeFiles/cmTC_dc46b.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_71525.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_71525.dir/testCCompiler.c.o   -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_71525
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71525.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_71525.dir/testCCompiler.c.o  -o cmTC_71525 
+Building C object CMakeFiles/cmTC_dc46b.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dc46b.dir/testCCompiler.c.o   -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_dc46b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc46b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_dc46b.dir/testCCompiler.c.o  -o cmTC_dc46b 
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_45594/fast"
-/usr/bin/make -f CMakeFiles/cmTC_45594.dir/build.make CMakeFiles/cmTC_45594.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4e250/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e250.dir/build.make CMakeFiles/cmTC_4e250.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_45594.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_45594.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_45594
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45594.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_45594.dir/CMakeCCompilerABI.c.o  -o cmTC_45594 
+Building C object CMakeFiles/cmTC_4e250.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4e250.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4e250
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e250.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_4e250.dir/CMakeCCompilerABI.c.o  -o cmTC_4e250 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45594' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccac6P5v.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_45594 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_45594.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45594' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e250' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccieB91a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4e250 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_4e250.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e250' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_45594/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_45594.dir/build.make CMakeFiles/cmTC_45594.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4e250/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4e250.dir/build.make CMakeFiles/cmTC_4e250.dir/build]
   ignore line: [make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_45594.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_45594.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_45594]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45594.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_45594.dir/CMakeCCompilerABI.c.o  -o cmTC_45594 ]
+  ignore line: [Building C object CMakeFiles/cmTC_4e250.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_4e250.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4e250]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e250.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_4e250.dir/CMakeCCompilerABI.c.o  -o cmTC_4e250 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45594' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccac6P5v.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_45594 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_45594.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e250' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccieB91a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4e250 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_4e250.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccac6P5v.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccieB91a.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_45594] ==> ignore
+    arg [cmTC_4e250] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_45594.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_4e250.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,14 +158,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e4e5f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e4e5f.dir/build.make CMakeFiles/cmTC_e4e5f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_406be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_406be.dir/build.make CMakeFiles/cmTC_406be.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4e5f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_e4e5f.dir/feature_tests.c.o   -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e4e5f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4e5f.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e4e5f.dir/feature_tests.c.o  -o cmTC_e4e5f 
+Building C object CMakeFiles/cmTC_406be.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_406be.dir/feature_tests.c.o   -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.c
+Linking C executable cmTC_406be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_406be.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_406be.dir/feature_tests.c.o  -o cmTC_406be 
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 
@@ -178,14 +178,14 @@ make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/bu
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4c474/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4c474.dir/build.make CMakeFiles/cmTC_4c474.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e6c1c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6c1c.dir/build.make CMakeFiles/cmTC_e6c1c.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4c474.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_4c474.dir/feature_tests.c.o   -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4c474
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c474.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_4c474.dir/feature_tests.c.o  -o cmTC_4c474 
+Building C object CMakeFiles/cmTC_e6c1c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e6c1c.dir/feature_tests.c.o   -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e6c1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6c1c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e6c1c.dir/feature_tests.c.o  -o cmTC_e6c1c 
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 
@@ -198,14 +198,14 @@ make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/bu
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c32d2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c32d2.dir/build.make CMakeFiles/cmTC_c32d2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4462d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4462d.dir/build.make CMakeFiles/cmTC_4462d.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c32d2.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_c32d2.dir/feature_tests.c.o   -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c32d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c32d2.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c32d2.dir/feature_tests.c.o  -o cmTC_c32d2 
+Building C object CMakeFiles/cmTC_4462d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4462d.dir/feature_tests.c.o   -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4462d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4462d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4462d.dir/feature_tests.c.o  -o cmTC_4462d 
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 
@@ -216,28 +216,28 @@ make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/bu
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6843c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6843c.dir/build.make CMakeFiles/cmTC_6843c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_99459/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99459.dir/build.make CMakeFiles/cmTC_99459.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6843c.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_6843c.dir/testCXXCompiler.cxx.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_6843c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6843c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_6843c.dir/testCXXCompiler.cxx.o  -o cmTC_6843c 
+Building CXX object CMakeFiles/cmTC_99459.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_99459.dir/testCXXCompiler.cxx.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_99459
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99459.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_99459.dir/testCXXCompiler.cxx.o  -o cmTC_99459 
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_82d28/fast"
-/usr/bin/make -f CMakeFiles/cmTC_82d28.dir/build.make CMakeFiles/cmTC_82d28.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_28a67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28a67.dir/build.make CMakeFiles/cmTC_28a67.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_82d28.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_82d28.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_82d28
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82d28.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_82d28.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_82d28 
+Building CXX object CMakeFiles/cmTC_28a67.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_28a67.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_28a67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28a67.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_28a67.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_28a67 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -247,8 +247,8 @@ Thread model: posix
 gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82d28' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_82d28 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_82d28.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_28a67' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_28a67 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_28a67.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 
@@ -256,14 +256,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_82d28/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_82d28.dir/build.make CMakeFiles/cmTC_82d28.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_28a67/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_28a67.dir/build.make CMakeFiles/cmTC_28a67.dir/build]
   ignore line: [make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_82d28.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_82d28.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_82d28]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82d28.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_82d28.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_82d28 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_28a67.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_28a67.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_28a67]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28a67.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_28a67.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_28a67 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -273,8 +273,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82d28' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_82d28 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_82d28.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_28a67' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_28a67 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_28a67.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -287,7 +287,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_82d28] ==> ignore
+    arg [cmTC_28a67] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -299,7 +299,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_82d28.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_28a67.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -327,14 +327,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4534b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4534b.dir/build.make CMakeFiles/cmTC_4534b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8e671/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e671.dir/build.make CMakeFiles/cmTC_8e671.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4534b.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_4534b.dir/feature_tests.cxx.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4534b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4534b.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_4534b.dir/feature_tests.cxx.o  -o cmTC_4534b 
+Building CXX object CMakeFiles/cmTC_8e671.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_8e671.dir/feature_tests.cxx.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8e671
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e671.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_8e671.dir/feature_tests.cxx.o  -o cmTC_8e671 
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 
@@ -400,14 +400,14 @@ make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/bu
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea9f9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea9f9.dir/build.make CMakeFiles/cmTC_ea9f9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f0904/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0904.dir/build.make CMakeFiles/cmTC_f0904.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ea9f9.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_ea9f9.dir/feature_tests.cxx.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ea9f9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea9f9.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_ea9f9.dir/feature_tests.cxx.o  -o cmTC_ea9f9 
+Building CXX object CMakeFiles/cmTC_f0904.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f0904.dir/feature_tests.cxx.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f0904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0904.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f0904.dir/feature_tests.cxx.o  -o cmTC_f0904 
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 
@@ -473,14 +473,14 @@ make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/bu
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_510dd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_510dd.dir/build.make CMakeFiles/cmTC_510dd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_101d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_101d1.dir/build.make CMakeFiles/cmTC_101d1.dir/build
 make[1]: Entering directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_510dd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_510dd.dir/feature_tests.cxx.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_510dd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_510dd.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_510dd.dir/feature_tests.cxx.o  -o cmTC_510dd 
+Building CXX object CMakeFiles/cmTC_101d1.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_101d1.dir/feature_tests.cxx.o -c /home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_101d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_101d1.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_101d1.dir/feature_tests.cxx.o  -o cmTC_101d1 
 make[1]: Leaving directory '/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/CMakeTmp'
 
 

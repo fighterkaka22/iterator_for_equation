@@ -16,11 +16,8 @@
 #include <map>
 #include <stdlib.h> 
 
-using namespace std;
-
-#define YPSILON 0.00001 
+using namespace std; 
 typedef double NumberType;
-
 class  IteratorFunction
 {
 protected:
