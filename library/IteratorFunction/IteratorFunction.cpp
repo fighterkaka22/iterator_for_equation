@@ -223,7 +223,11 @@ void IteratorFunction::pushExpression()
 		else if(expression[i] == 'x')
 		{
 			OPND.push(this->x);
-		} 
+		}
+		else if(expression[i] == 'e')
+		{
+			OPND.push(2.7182818);
+		}
 		else
 		{
 			pushOpt(i);
