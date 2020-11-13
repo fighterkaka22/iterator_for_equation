@@ -1,82 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\main.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorWidget\IteratorWidget.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorWidget\IteratorWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\IteratorFunction.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\IteratorFunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\Aitken.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\Aitken.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonOriginal.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonOriginal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonDownhill.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonDownhill.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\OnePoint.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\OnePoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\TwoPoint.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\TwoPoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorWidget\moc_IteratorWidget.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget\moc_IteratorWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_IteratorFunction.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_IteratorFunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_Aitken.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_Aitken.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonOriginal.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonOriginal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonDownhill.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonDownhill.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_OnePoint.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_OnePoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_TwoPoint.cpp">
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_TwoPoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\83b59c038c13fc3aff3853d208b1d099\moc_IteratorWidget.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\f03397b44a824886745cf5282c9e73f9\moc_IteratorWidget.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_IteratorFunction.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_IteratorFunction.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_Aitken.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_Aitken.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_NewtonOriginal.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_NewtonOriginal.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_NewtonDownhill.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_NewtonDownhill.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_OnePoint.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_OnePoint.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_TwoPoint.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_TwoPoint.cpp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\library\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{A6026F19-59A3-3847-B400-F374CBB7B5F0}</UniqueIdentifier>
+      <UniqueIdentifier>{C303CA30-AA3E-3F2E-824C-71018CE61854}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7C5F41E1-EE4E-3EA2-A20F-64B02B557B5F}</UniqueIdentifier>
+      <UniqueIdentifier>{D7C33843-75A5-38CB-9C13-9298278B019C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

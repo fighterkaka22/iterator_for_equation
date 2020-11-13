@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6D5EE2CA-266B-3F83-B98B-7A7E79318537}</ProjectGuid>
+    <ProjectGuid>{734F74C2-83F4-381D-9F37-81DA336E0865}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Iterator.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Iterator</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Iterator.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Iterator</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Iterator.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Iterator</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Iterator.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Iterator</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,8 +120,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Code/iterator-v-2.0/build/Debug/Iterator.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Code/iterator-v-2.0/build/Debug/Iterator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/Debug/Iterator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/Debug/Iterator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -147,10 +147,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -163,8 +163,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Code/iterator-v-2.0/build/Release/Iterator.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Code/iterator-v-2.0/build/Release/Iterator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/Release/Iterator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/Release/Iterator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -173,7 +173,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -190,10 +190,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,8 +206,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Code/iterator-v-2.0/build/MinSizeRel/Iterator.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Code/iterator-v-2.0/build/MinSizeRel/Iterator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/MinSizeRel/Iterator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/MinSizeRel/Iterator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -216,7 +216,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -232,10 +232,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Code\iterator-v-2.0\library;D:\Code\iterator-v-2.0\library\.\IteratorFunction;D:\Code\iterator-v-2.0\library\.\IteratorWidget;D:\Code\iterator-v-2.0\build;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joyce\Desktop\iterator_for_equation-dev\library;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorFunction;C:\Users\joyce\Desktop\iterator_for_equation-dev\library\.\IteratorWidget;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows;D:\qt.5.12.6\5.12.6\msvc2017_64\include;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtWidgets;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtGui;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtANGLE;D:\qt.5.12.6\5.12.6\msvc2017_64\include\QtCore;D:\qt.5.12.6\5.12.6\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -248,8 +248,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Code/iterator-v-2.0/build/RelWithDebInfo/Iterator.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Code/iterator-v-2.0/build/RelWithDebInfo/Iterator.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/RelWithDebInfo/Iterator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/RelWithDebInfo/Iterator.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -257,14 +257,14 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\83b59c038c13fc3aff3853d208b1d099\moc_IteratorWidget.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\f03397b44a824886745cf5282c9e73f9\moc_IteratorWidget.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating IteratorWidget/moc_IteratorWidget.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorWidget
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorWidget/moc_IteratorWidget.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorWidget/moc_IteratorWidget.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,16 +272,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\library\IteratorWidget\IteratorWidget.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\build\IteratorWidget\moc_IteratorWidget.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorWidget\IteratorWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget\moc_IteratorWidget.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating IteratorWidget/moc_IteratorWidget.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorWidget
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorWidget/moc_IteratorWidget.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorWidget/moc_IteratorWidget.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,16 +289,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\library\IteratorWidget\IteratorWidget.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\build\IteratorWidget\moc_IteratorWidget.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorWidget\IteratorWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget\moc_IteratorWidget.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating IteratorWidget/moc_IteratorWidget.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorWidget
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorWidget/moc_IteratorWidget.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorWidget/moc_IteratorWidget.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,16 +306,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\library\IteratorWidget\IteratorWidget.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\build\IteratorWidget\moc_IteratorWidget.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorWidget\IteratorWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget\moc_IteratorWidget.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating IteratorWidget/moc_IteratorWidget.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorWidget
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorWidget/moc_IteratorWidget.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorWidget/moc_IteratorWidget.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -323,20 +323,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\library\IteratorWidget\IteratorWidget.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\build\IteratorWidget\moc_IteratorWidget.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorWidget\IteratorWidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget\moc_IteratorWidget.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_IteratorFunction.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_IteratorFunction.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating IteratorFunction/moc_IteratorFunction.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_IteratorFunction.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_IteratorFunction.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -344,16 +344,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\IteratorFunction.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_IteratorFunction.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\IteratorFunction.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_IteratorFunction.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating IteratorFunction/moc_IteratorFunction.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_IteratorFunction.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_IteratorFunction.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -361,16 +361,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\IteratorFunction.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_IteratorFunction.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\IteratorFunction.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_IteratorFunction.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating IteratorFunction/moc_IteratorFunction.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_IteratorFunction.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_IteratorFunction.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -378,16 +378,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\IteratorFunction.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_IteratorFunction.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\IteratorFunction.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_IteratorFunction.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating IteratorFunction/moc_IteratorFunction.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_IteratorFunction.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_IteratorFunction.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -395,20 +395,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\IteratorFunction.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_IteratorFunction.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\IteratorFunction.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_IteratorFunction.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_Aitken.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_Aitken.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating IteratorFunction/moc_Aitken.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_Aitken.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_Aitken.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -416,16 +416,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\Aitken.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_Aitken.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\Aitken.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_Aitken.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating IteratorFunction/moc_Aitken.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_Aitken.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_Aitken.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -433,16 +433,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\Aitken.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_Aitken.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\Aitken.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_Aitken.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating IteratorFunction/moc_Aitken.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_Aitken.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_Aitken.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -450,16 +450,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\Aitken.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_Aitken.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\Aitken.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_Aitken.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating IteratorFunction/moc_Aitken.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_Aitken.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_Aitken.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -467,20 +467,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\Aitken.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_Aitken.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\Aitken.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_Aitken.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_NewtonOriginal.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_NewtonOriginal.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating IteratorFunction/moc_NewtonOriginal.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonOriginal.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_NewtonOriginal.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -488,16 +488,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonOriginal.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonOriginal.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonOriginal.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonOriginal.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating IteratorFunction/moc_NewtonOriginal.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonOriginal.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_NewtonOriginal.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -505,16 +505,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonOriginal.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonOriginal.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonOriginal.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonOriginal.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating IteratorFunction/moc_NewtonOriginal.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonOriginal.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_NewtonOriginal.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -522,16 +522,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonOriginal.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonOriginal.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonOriginal.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonOriginal.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating IteratorFunction/moc_NewtonOriginal.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonOriginal.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_NewtonOriginal.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -539,20 +539,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonOriginal.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonOriginal.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonOriginal.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonOriginal.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_NewtonDownhill.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_NewtonDownhill.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating IteratorFunction/moc_NewtonDownhill.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonDownhill.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_NewtonDownhill.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -560,16 +560,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonDownhill.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonDownhill.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonDownhill.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonDownhill.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating IteratorFunction/moc_NewtonDownhill.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonDownhill.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_NewtonDownhill.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -577,16 +577,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonDownhill.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonDownhill.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonDownhill.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonDownhill.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating IteratorFunction/moc_NewtonDownhill.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonDownhill.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_NewtonDownhill.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -594,16 +594,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonDownhill.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonDownhill.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonDownhill.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonDownhill.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating IteratorFunction/moc_NewtonDownhill.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonDownhill.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_NewtonDownhill.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -611,20 +611,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonDownhill.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonDownhill.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonDownhill.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonDownhill.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_OnePoint.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_OnePoint.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating IteratorFunction/moc_OnePoint.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_OnePoint.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_OnePoint.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -632,16 +632,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\OnePoint.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_OnePoint.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\OnePoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_OnePoint.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating IteratorFunction/moc_OnePoint.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_OnePoint.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_OnePoint.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -649,16 +649,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\OnePoint.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_OnePoint.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\OnePoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_OnePoint.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating IteratorFunction/moc_OnePoint.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_OnePoint.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_OnePoint.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -666,16 +666,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\OnePoint.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_OnePoint.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\OnePoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_OnePoint.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating IteratorFunction/moc_OnePoint.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_OnePoint.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_OnePoint.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -683,20 +683,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\OnePoint.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_OnePoint.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\OnePoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_OnePoint.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\build\CMakeFiles\8cafa101c66a32d189e1da9e9fd6e8a2\moc_TwoPoint.cpp.rule">
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\5a252486eccf253866e43a6a9fc869d3\moc_TwoPoint.cpp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating IteratorFunction/moc_TwoPoint.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_TwoPoint.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_TwoPoint.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -704,16 +704,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\TwoPoint.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_TwoPoint.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\TwoPoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_TwoPoint.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating IteratorFunction/moc_TwoPoint.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_TwoPoint.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_TwoPoint.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -721,16 +721,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\TwoPoint.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_TwoPoint.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\TwoPoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_TwoPoint.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating IteratorFunction/moc_TwoPoint.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_TwoPoint.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_TwoPoint.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -738,16 +738,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\TwoPoint.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_TwoPoint.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\TwoPoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_TwoPoint.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating IteratorFunction/moc_TwoPoint.cpp</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd D:\Code\iterator-v-2.0\build\IteratorFunction
+cd C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction
 if %errorlevel% neq 0 goto :cmEnd
-D:
+C:
 if %errorlevel% neq 0 goto :cmEnd
-D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_TwoPoint.cpp_parameters
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_TwoPoint.cpp_parameters
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -755,16 +755,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\library\IteratorFunction\TwoPoint.h;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\build\IteratorFunction\moc_TwoPoint.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\TwoPoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_TwoPoint.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Code\iterator-v-2.0\library\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Code/iterator-v-2.0/library/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/joyce/Desktop/iterator_for_equation-dev/library/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-D:\CMake\bin\cmake.exe -SD:/Code/iterator-v-2.0/library -BD:/Code/iterator-v-2.0/build --check-stamp-file D:/Code/iterator-v-2.0/build/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SC:/Users/joyce/Desktop/iterator_for_equation-dev/library -BC:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows --check-stamp-file C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -772,12 +772,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeCCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeCXXCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeRCCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeSystem.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\iterator-v-2.0\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeCCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeCXXCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeRCCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Code/iterator-v-2.0/library/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/joyce/Desktop/iterator_for_equation-dev/library/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\CMake\bin\cmake.exe -SD:/Code/iterator-v-2.0/library -BD:/Code/iterator-v-2.0/build --check-stamp-file D:/Code/iterator-v-2.0/build/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SC:/Users/joyce/Desktop/iterator_for_equation-dev/library -BC:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows --check-stamp-file C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -785,12 +785,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeCCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeCXXCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeRCCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeSystem.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\iterator-v-2.0\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeCCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeCXXCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeRCCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Code/iterator-v-2.0/library/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/joyce/Desktop/iterator_for_equation-dev/library/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\CMake\bin\cmake.exe -SD:/Code/iterator-v-2.0/library -BD:/Code/iterator-v-2.0/build --check-stamp-file D:/Code/iterator-v-2.0/build/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SC:/Users/joyce/Desktop/iterator_for_equation-dev/library -BC:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows --check-stamp-file C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -798,12 +798,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeCCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeCXXCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeRCCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeSystem.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\iterator-v-2.0\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeCCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeCXXCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeRCCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Code/iterator-v-2.0/library/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/joyce/Desktop/iterator_for_equation-dev/library/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\CMake\bin\cmake.exe -SD:/Code/iterator-v-2.0/library -BD:/Code/iterator-v-2.0/build --check-stamp-file D:/Code/iterator-v-2.0/build/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SC:/Users/joyce/Desktop/iterator_for_equation-dev/library -BC:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows --check-stamp-file C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -811,31 +811,31 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeCCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeCXXCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeRCCompiler.cmake;D:\Code\iterator-v-2.0\build\CMakeFiles\3.19.0-rc3\CMakeSystem.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\iterator-v-2.0\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeCCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeCXXCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeRCCompiler.cmake;C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\3.19.0-rc3\CMakeSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\qt.5.12.6\5.12.6\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\main.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorWidget\IteratorWidget.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\IteratorFunction.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\Aitken.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonOriginal.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\NewtonDownhill.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\OnePoint.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\library\IteratorFunction\TwoPoint.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorWidget\moc_IteratorWidget.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_IteratorFunction.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_Aitken.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonOriginal.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_NewtonDownhill.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_OnePoint.cpp" />
-    <ClCompile Include="D:\Code\iterator-v-2.0\build\IteratorFunction\moc_TwoPoint.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\main.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorWidget\IteratorWidget.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\IteratorFunction.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\Aitken.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonOriginal.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\NewtonDownhill.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\OnePoint.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\library\IteratorFunction\TwoPoint.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorWidget\moc_IteratorWidget.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_IteratorFunction.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_Aitken.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonOriginal.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_NewtonDownhill.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_OnePoint.cpp" />
+    <ClCompile Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\IteratorFunction\moc_TwoPoint.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Code\iterator-v-2.0\build\ZERO_CHECK.vcxproj">
-      <Project>{0E8E3ED0-CB37-345F-B565-30DC55F1C868}</Project>
+    <ProjectReference Include="C:\Users\joyce\Desktop\iterator_for_equation-dev\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{D0CA7A21-123E-33CB-9C48-8137045A1D74}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

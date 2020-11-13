@@ -1,8 +1,8 @@
--ID:/Code/iterator-v-2.0/library
--ID:/Code/iterator-v-2.0/library/./IteratorFunction
--ID:/Code/iterator-v-2.0/library/./IteratorWidget
+-IC:/Users/joyce/Desktop/iterator_for_equation-dev/library
+-IC:/Users/joyce/Desktop/iterator_for_equation-dev/library/./IteratorFunction
+-IC:/Users/joyce/Desktop/iterator_for_equation-dev/library/./IteratorWidget
 -DWIN32
 --compiler-flavor=msvc
 -o
-D:/Code/iterator-v-2.0/build/IteratorWidget/moc_IteratorWidget.cpp
-D:/Code/iterator-v-2.0/library/IteratorWidget/IteratorWidget.h
+C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorWidget/moc_IteratorWidget.cpp
+C:/Users/joyce/Desktop/iterator_for_equation-dev/library/IteratorWidget/IteratorWidget.h

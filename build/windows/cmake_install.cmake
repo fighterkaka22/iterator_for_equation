@@ -1,4 +1,4 @@
-# Install script for directory: D:/Code/iterator-v-2.0/library
+# Install script for directory: C:/Users/joyce/Desktop/iterator_for_equation-dev/library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Code/iterator-v-2.0/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

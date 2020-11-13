@@ -1,8 +1,8 @@
--ID:/Code/iterator-v-2.0/library
--ID:/Code/iterator-v-2.0/library/./IteratorFunction
--ID:/Code/iterator-v-2.0/library/./IteratorWidget
+-IC:/Users/joyce/Desktop/iterator_for_equation-dev/library
+-IC:/Users/joyce/Desktop/iterator_for_equation-dev/library/./IteratorFunction
+-IC:/Users/joyce/Desktop/iterator_for_equation-dev/library/./IteratorWidget
 -DWIN32
 --compiler-flavor=msvc
 -o
-D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonOriginal.cpp
-D:/Code/iterator-v-2.0/library/IteratorFunction/NewtonOriginal.h
+C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_NewtonOriginal.cpp
+C:/Users/joyce/Desktop/iterator_for_equation-dev/library/IteratorFunction/NewtonOriginal.h

@@ -1,6 +1,6 @@
-^D:\CODE\ITERATOR-V-2.0\BUILD\CMAKEFILES\279CD9DE5C9BBA882CDB94FCCB5B8C6E\GENERATE.STAMP.RULE
+^C:\USERS\JOYCE\DESKTOP\ITERATOR_FOR_EQUATION-DEV\BUILD\WINDOWS\CMAKEFILES\494E294532CF5A4BD64EEAA9B5CD176F\GENERATE.STAMP.RULE
 setlocal
-D:\CMake\bin\cmake.exe -SD:/Code/iterator-v-2.0/library -BD:/Code/iterator-v-2.0/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Code/iterator-v-2.0/build/Iterator.sln
+D:\CMake\bin\cmake.exe -SC:/Users/joyce/Desktop/iterator_for_equation-dev/library -BC:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/Iterator.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
