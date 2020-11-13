@@ -1,7 +1,7 @@
 /*
- * @Author: your name
+ * @Author: Sun Yuxin
  * @Date: 2020-11-09 04:09:52
- * @LastEditTime: 2020-11-10 11:15:11
+ * @LastEditTime: 2020-11-13 00:08:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /numerical_analysis_iterator/library/IteratorFunction/TwoPoint.cpp
@@ -38,9 +38,10 @@ NumberType TwoPoint::iterate()
 {
 	NumberType xn_last = this->xn;
 	this->xn = (xn_1*fxn - xn*fxn_1)/(fxn - fxn_1);
-	cout << "x_new=" << this->xn << endl;
+	cout << "x_new = " << this->xn << endl;
 	this->xn_1 = xn_last;
 	this->fxn_1 = this->fxn;
 	this->x = this->xn;
 	this->fxn = this->cal();
+	return this->xn;
 }

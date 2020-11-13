@@ -1,3 +1,11 @@
+/*
+ * @Author: Sun Yuxin
+ * @Date: 2020-11-11 06:41:05
+ * @LastEditTime: 2020-11-13 00:03:08
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /numerical_analysis_iterator/library/IteratorFunction/OnePoint.cpp
+ */
 #include "OnePoint.h"
 OnePoint::OnePoint():IteratorFunction()
 {
@@ -31,7 +39,8 @@ NumberType OnePoint::iterate()
 {
 	this->x_last = this->xn;
 	this->xn = (x0*fxn - xn*fx0)/(fxn - fx0);
-	cout << "x_new=" << this->xn << endl;
+	cout << "x_new = " << this->xn << endl;
 	this->x = this->xn;
 	this->fxn = this->cal();
+	return this->xn;
 }

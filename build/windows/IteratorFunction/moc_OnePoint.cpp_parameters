@@ -1,0 +1,8 @@
+-ID:/Code/iterator-v-2.0/library
+-ID:/Code/iterator-v-2.0/library/./IteratorFunction
+-ID:/Code/iterator-v-2.0/library/./IteratorWidget
+-DWIN32
+--compiler-flavor=msvc
+-o
+D:/Code/iterator-v-2.0/build/IteratorFunction/moc_OnePoint.cpp
+D:/Code/iterator-v-2.0/library/IteratorFunction/OnePoint.h

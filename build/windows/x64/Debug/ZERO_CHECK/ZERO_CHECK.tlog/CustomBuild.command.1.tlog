@@ -1,0 +1,10 @@
+^D:\CODE\ITERATOR-V-2.0\BUILD\CMAKEFILES\279CD9DE5C9BBA882CDB94FCCB5B8C6E\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/Code/iterator-v-2.0/library -BD:/Code/iterator-v-2.0/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Code/iterator-v-2.0/build/Iterator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

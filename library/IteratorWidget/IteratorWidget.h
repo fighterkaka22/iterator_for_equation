@@ -1,7 +1,7 @@
 /*
  * @Author: Sun Yuxin
  * @Date: 2020-11-04 02:00:32
- * @LastEditTime: 2020-11-11 06:08:04
+ * @LastEditTime: 2020-11-13 00:37:41
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /numerical_analysis_iterator/library/IteratorWidget.h
@@ -30,7 +30,6 @@
 #include "OnePoint.h"
 #include "TwoPoint.h"
 
-//@brief:
 //@brief:Qt窗口类，可以通过构造函数将窗口类中的按钮、文本框等设置为子对象，并通过信号和槽机制与底层函数连接，为子对象实现对应的功能，利用循环机制实时更新窗口内容
 //@brief:可以通过void paintEvent(QPaintEvent * event)成员函数实现函数图像、迭代点、文本的绘制
 //@example:
@@ -71,7 +70,7 @@ public:
 
     QTextEdit _edit_time;
     QTextEdit _edit_result;
-    QTextEdit _edit_lamda;
+    QTextEdit _edit_lambda;
 private:
     int method = 0;
     int time = 0;

@@ -1,0 +1,33 @@
+﻿  Generating IteratorWidget/moc_IteratorWidget.cpp
+  Generating IteratorFunction/moc_IteratorFunction.cpp
+  D:/Code/iterator-v-2.0/library/IteratorFunction/IteratorFunction.h(0): Note: No relevant classes found. No output generated.
+  Generating IteratorFunction/moc_Aitken.cpp
+  D:/Code/iterator-v-2.0/library/IteratorFunction/Aitken.h(0): Note: No relevant classes found. No output generated.
+  Generating IteratorFunction/moc_NewtonOriginal.cpp
+  D:/Code/iterator-v-2.0/library/IteratorFunction/NewtonOriginal.h(0): Note: No relevant classes found. No output generated.
+  Generating IteratorFunction/moc_NewtonDownhill.cpp
+  D:/Code/iterator-v-2.0/library/IteratorFunction/NewtonDownhill.h(0): Note: No relevant classes found. No output generated.
+  Generating IteratorFunction/moc_OnePoint.cpp
+  D:/Code/iterator-v-2.0/library/IteratorFunction/OnePoint.h(0): Note: No relevant classes found. No output generated.
+  Generating IteratorFunction/moc_TwoPoint.cpp
+  D:/Code/iterator-v-2.0/library/IteratorFunction/TwoPoint.h(0): Note: No relevant classes found. No output generated.
+  Building Custom Rule D:/Code/iterator-v-2.0/library/CMakeLists.txt
+  main.cpp
+  IteratorWidget.cpp
+  IteratorFunction.cpp
+D:\Code\iterator-v-2.0\library\IteratorFunction\IteratorFunction.cpp(38,57): warning C4244: “参数”: 从“NumberType”转换到“const unsigned __int64”，可能丢失数据
+  Aitken.cpp
+  NewtonOriginal.cpp
+  NewtonDownhill.cpp
+  OnePoint.cpp
+  TwoPoint.cpp
+  moc_IteratorWidget.cpp
+  moc_IteratorFunction.cpp
+  moc_Aitken.cpp
+  moc_NewtonOriginal.cpp
+  moc_NewtonDownhill.cpp
+  moc_OnePoint.cpp
+  moc_TwoPoint.cpp
+  正在生成代码...
+D:\Code\iterator-v-2.0\library\IteratorFunction\IteratorFunction.cpp(38,33): warning C4244: “参数”: 从“NumberType”转换到“const unsigned __int64”，可能丢失数据
+  Iterator.vcxproj -> D:\Code\iterator-v-2.0\build\Debug\Iterator.exe

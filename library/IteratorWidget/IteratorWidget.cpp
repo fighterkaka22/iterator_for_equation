@@ -1,7 +1,7 @@
 /*
  * @Author: Sun Yuxin
  * @Date: 2020-11-04 02:00:39
- * @LastEditTime: 2020-11-11 06:22:21
+ * @LastEditTime: 2020-11-13 00:46:46
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /numerical_analysis_iterator/library/IteratorWidget/IteratorWidget.cpp
@@ -32,7 +32,7 @@ IteratorWidget::IteratorWidget(QWidget *parent)
     _multiple_10(this),
     _edit_time(this),
     _edit_result(this),
-    _edit_lamda(this)
+    _edit_lambda(this)
 {
     setFixedSize(1200,900);
     setWindowTitle("迭代法解方程");
@@ -111,9 +111,9 @@ IteratorWidget::IteratorWidget(QWidget *parent)
     _edit_x0.setGeometry(600,724,250,40);
     _edit_x1.setGeometry(600,772,250,40);
 
-    _edit_time.setGeometry(982,72,30,40);
+    _edit_time.setGeometry(981,72,30,40);
     _edit_result.setGeometry(1005,120,135,30);
-    _edit_lamda.setGeometry(1070,320,70,30);
+    _edit_lambda.setGeometry(1070,320,70,30);
 
     connect(&_aitken,&QPushButton::clicked,[=]()
     {
@@ -258,7 +258,7 @@ IteratorWidget::IteratorWidget(QWidget *parent)
                     newton_downhill.iterate();    		
                 }
                 result = newton_downhill.x;
-                _edit_lamda.setPlainText(QString::number(newton_downhill.lamda, 'g', ypsilon_num));
+                _edit_lambda.setPlainText(QString::number(newton_downhill.lambda, 'g', ypsilon_num));
             }
             else if(method == 4)
             {
@@ -294,7 +294,7 @@ IteratorWidget::IteratorWidget(QWidget *parent)
 
         _edit_time.setPlainText("");
         _edit_result.setPlainText("");
-        _edit_lamda.setPlainText("");
+        _edit_lambda.setPlainText("");
         drawline_flag = 0;
         drawpoint_flag = 0;
         flag = 0;
@@ -339,10 +339,10 @@ void IteratorWidget::paintEvent(QPaintEvent *event)
 
 
     draw_text.drawText(960,95,"第");
-    draw_text.drawText(1015,95,"次迭代结果为:");
-    draw_text.drawText(960,140,"xi = ");
+    draw_text.drawText(1015,95,"次迭代结果:");
+    draw_text.drawText(960,140,"xi= ");
 
-    draw_text.drawText(960,340,"下山因子 = ");
+    draw_text.drawText(960,340,"下山因子 =");
 
     if(time > 0 && fabs(result_array[time]-result_array[time-1]) < ypsilon)
     {
@@ -361,7 +361,7 @@ void IteratorWidget::paintEvent(QPaintEvent *event)
         draw_line.setPen(QPen(QColor(0,0,255),2));
         for(double x = - 250; x <= 250; x ++ )
         {
-            if(pointy+25/multiple*point_queue.front()<=550 && pointy+25/multiple*point_queue.front() >= 50)
+            if(!point_queue.empty() && pointy+25/multiple*point_queue.front()<=550 && pointy+25/multiple*point_queue.front() >= 50)
             {
                 draw_line.drawPoint(pointx+x,pointy+25/multiple*point_queue.front());                
             }

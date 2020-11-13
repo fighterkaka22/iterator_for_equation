@@ -1,0 +1,108 @@
+^D:\CODE\ITERATOR-V-2.0\BUILD\CMAKEFILES\83B59C038C13FC3AFF3853D208B1D099\MOC_ITERATORWIDGET.CPP.RULE
+setlocal
+cd D:\Code\iterator-v-2.0\build\IteratorWidget
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorWidget/moc_IteratorWidget.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\ITERATOR-V-2.0\BUILD\CMAKEFILES\8CAFA101C66A32D189E1DA9E9FD6E8A2\MOC_ITERATORFUNCTION.CPP.RULE
+setlocal
+cd D:\Code\iterator-v-2.0\build\IteratorFunction
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_IteratorFunction.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\ITERATOR-V-2.0\BUILD\CMAKEFILES\8CAFA101C66A32D189E1DA9E9FD6E8A2\MOC_AITKEN.CPP.RULE
+setlocal
+cd D:\Code\iterator-v-2.0\build\IteratorFunction
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_Aitken.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\ITERATOR-V-2.0\BUILD\CMAKEFILES\8CAFA101C66A32D189E1DA9E9FD6E8A2\MOC_NEWTONORIGINAL.CPP.RULE
+setlocal
+cd D:\Code\iterator-v-2.0\build\IteratorFunction
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonOriginal.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\ITERATOR-V-2.0\BUILD\CMAKEFILES\8CAFA101C66A32D189E1DA9E9FD6E8A2\MOC_NEWTONDOWNHILL.CPP.RULE
+setlocal
+cd D:\Code\iterator-v-2.0\build\IteratorFunction
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_NewtonDownhill.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\ITERATOR-V-2.0\BUILD\CMAKEFILES\8CAFA101C66A32D189E1DA9E9FD6E8A2\MOC_ONEPOINT.CPP.RULE
+setlocal
+cd D:\Code\iterator-v-2.0\build\IteratorFunction
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_OnePoint.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\ITERATOR-V-2.0\BUILD\CMAKEFILES\8CAFA101C66A32D189E1DA9E9FD6E8A2\MOC_TWOPOINT.CPP.RULE
+setlocal
+cd D:\Code\iterator-v-2.0\build\IteratorFunction
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\qt.5.12.6\5.12.6\msvc2017_64\bin\moc.exe @D:/Code/iterator-v-2.0/build/IteratorFunction/moc_TwoPoint.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\ITERATOR-V-2.0\LIBRARY\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/Code/iterator-v-2.0/library -BD:/Code/iterator-v-2.0/build --check-stamp-file D:/Code/iterator-v-2.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

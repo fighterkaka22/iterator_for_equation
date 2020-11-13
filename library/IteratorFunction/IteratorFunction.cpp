@@ -1,3 +1,11 @@
+/*
+ * @Author: Sun Yuxin
+ * @Date: 2020-11-11 06:41:05
+ * @LastEditTime: 2020-11-12 23:51:30
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /numerical_analysis_iterator/library/IteratorFunction/IteratorFunction.cpp
+ */
 #ifndef __ITERATOR_FUNCTION__
 #include"IteratorFunction.h"
 using namespace std;
@@ -21,22 +29,6 @@ IteratorFunction::IteratorFunction(string expression, string equivalent, NumberT
 	opt_priority['^'] = 3;
 	opt_priority['#'] = 4;
 }
-// IteratorFunction::IteratorFunction(string expression, string equivalent, NumberType x0, NumberType x1)
-// {
-// 	this->expression = expression;
-// 	this->equivalent = equivalent;
-//     this->x0 = x0;
-//     this->x1 = x1;
-	
-// 	error = 0;
-// 	opt_priority['('] = 0;
-// 	opt_priority['-'] = 1;
-// 	opt_priority['+'] = 1;
-// 	opt_priority['*'] = 2;
-// 	opt_priority['/'] = 2;
-// 	opt_priority['^'] = 3;
-// 	opt_priority['#'] = 4;
-// }
 IteratorFunction::IteratorFunction()
 {
 
@@ -180,9 +172,6 @@ void IteratorFunction::pushOpt(int index)
 				OPTR.pop();
 				if (opt_priority[opt] >= opt_priority[opt_tmp])
 				{
-					//��һ���ǿ��ǵ�ָ����������������ڽ���ͬ������ʱ�Ĳ�֮ͬ��
-					//��������ͬ�����������
-					//ָ�������Ǵ��ϵ��£�Ҳ���Ǳ���ʽ�еĴ�������
 					if (opt == '^')
 					{
 						OPTR.push(opt_tmp);

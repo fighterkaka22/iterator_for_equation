@@ -1,7 +1,7 @@
 /*
- * @Author: your name
+ * @Author: Sun Yuxin
  * @Date: 2020-11-09 04:09:52
- * @LastEditTime: 2020-11-10 20:00:49
+ * @LastEditTime: 2020-11-13 00:09:04
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /numerical_analysis_iterator/library/IteratorFunction/Aitken.cpp
@@ -28,9 +28,7 @@ void Aitken::initAitken(string expression, string equivalent, NumberType x0, Num
 	opt_priority['#'] = 4;
 	
 	this->x = x0;
-	this->x1 = x0-1; 
-	cout << "x_init=" << this->x;
-	cout << "x1_init=" << this->x1;
+	this->x1 = x0-1;
 }
 NumberType Aitken::iterate()
 {
