@@ -1,3 +1,0 @@
-/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/rebuild_cache.dir
-/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/Iterator.dir
-/home/joyce/Documents/numerical_analysis_iterator/build/linux/CMakeFiles/edit_cache.dir

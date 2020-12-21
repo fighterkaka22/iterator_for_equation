@@ -1,3 +1,0 @@
-C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/CMakeFiles/Iterator.dir
-C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/CMakeFiles/ALL_BUILD.dir
-C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/CMakeFiles/ZERO_CHECK.dir

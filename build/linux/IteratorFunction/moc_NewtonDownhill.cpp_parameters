@@ -1,6 +1,0 @@
--I/home/joyce/Documents/numerical_analysis_iterator/library
--I/home/joyce/Documents/numerical_analysis_iterator/library/./IteratorFunction
--I/home/joyce/Documents/numerical_analysis_iterator/library/./IteratorWidget
--o
-/home/joyce/Documents/numerical_analysis_iterator/build/linux/IteratorFunction/moc_NewtonDownhill.cpp
-/home/joyce/Documents/numerical_analysis_iterator/library/IteratorFunction/NewtonDownhill.h
