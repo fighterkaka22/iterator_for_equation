@@ -3,14 +3,13 @@ build/linux/IteratorFunction/*
 build/linux/IteratorWidget/*
 build/linux/CMakeCache.txt
 build/linux/cmake_install.cmake
-build/linux/MakeFile
+build/linux/MakeFiles
 
 build/windows/CMakeFiles/*
 build/windows/Iterator.dir
 build/windows/IteratorFunction/*
 build/windows/IteratorWidget/*
 build/windows/x64/*
-build/windows
 
 *.vcxproj
 *.vcxproj.filters
