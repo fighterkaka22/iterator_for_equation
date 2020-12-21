@@ -3,7 +3,7 @@ build/linux/IteratorFunction/*
 build/linux/IteratorWidget/*
 build/linux/CMakeCache.txt
 build/linux/cmake_install.cmake
-build/linux/MakeFiles
+build/linux/Makefile
 
 build/windows/CMakeFiles/*
 build/windows/Iterator.dir
