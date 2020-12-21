@@ -1,8 +1,0 @@
--IC:/Users/joyce/Desktop/iterator_for_equation-dev/library
--IC:/Users/joyce/Desktop/iterator_for_equation-dev/library/./IteratorFunction
--IC:/Users/joyce/Desktop/iterator_for_equation-dev/library/./IteratorWidget
--DWIN32
---compiler-flavor=msvc
--o
-C:/Users/joyce/Desktop/iterator_for_equation-dev/build/windows/IteratorFunction/moc_OnePoint.cpp
-C:/Users/joyce/Desktop/iterator_for_equation-dev/library/IteratorFunction/OnePoint.h
